@@ -6,7 +6,7 @@ echo "--------------------------------------------------"
 apt-get -y update
 echo 'install packeges'
 echo "--------------------------------------------------"
-apt-get -y install git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev libmagickwand-dev postgresql postgresql-contrib libpq-dev sqlite3 libsqlite3-dev
+apt-get -y install git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev libmagickwand-dev postgresql postgresql-contrib libpq-dev sqlite3 libsqlite3-dev imagemagick
 
 echo 'download rbenv'
 echo "--------------------------------------------------"
