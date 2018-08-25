@@ -2,19 +2,22 @@
 default configuration ubuntu system from rails
 
 1. install ubuntu 16
-2. set locale: dpkg-reconfigure locales
+2. `set locale: dpkg-reconfigure locales`
 
 
-3. 
-install:
-rbenv
-ruby 2.5.0
-nodejs
-postgresql
-sqlite
-nginx+passenger
+3. `sudo sh instal_rbenv+ruby+postgresql+nginx.sh`
 
-sudo sh instal_rbenv+ruby+postgresql+nginx.sh
-sudo sh instal_redis.sh
 
-4. profit!
+> installed:
+>  - rbenv
+>  - ruby 2.5.0
+>  - nodejs
+>  - postgresql
+>  - sqlite
+>  - nginx+passenger
+>  - and others....
+
+
+5. `sudo sh instal_redis.sh`
+
+6. profit!
